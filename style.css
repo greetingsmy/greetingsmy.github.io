@@ -1,0 +1,47 @@
+.happybirthday {
+  margin: 20px auto;
+  width: max-content;
+  font-size: 50px;
+  font-family: sans-serif;
+  color: white;
+}
+
+body {
+  background-color: black;
+  overflow-y: hidden;
+}
+
+.hzline {
+  height: 300px;
+  background-color: white;
+  width: 1px;
+  margin: -150px auto;
+  transform: rotate(90deg);
+}
+
+.line {
+  height: 70px;
+  background-color: white;
+  width: 1px;
+  margin: 0px auto;
+}
+
+.block {
+
+  outline: 1px solid white;
+  width: 200px;;
+  margin: 0px auto;
+  height: max-content;
+  text-align: center;
+
+}
+
+.text {
+  transition: color 0.5s linear;
+  text-align: center;
+  padding: 5px;
+}
+
+.text:hover {
+  color: white;
+}
