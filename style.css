@@ -8,7 +8,6 @@
 
 body {
   background-color: black;
-  overflow-y: hidden;
 }
 
 .hzline {
@@ -40,6 +39,7 @@ body {
   transition: color 0.5s linear;
   text-align: center;
   padding: 5px;
+  font-size: 5vw;
 }
 
 .text:hover {
